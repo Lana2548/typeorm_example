@@ -1,0 +1,18 @@
+{
+  "include": [
+    "src/backend/**/*"
+  ],
+  "compilerOptions": {
+    // "target": "es5",
+    "target": "es6",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src/backend",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
